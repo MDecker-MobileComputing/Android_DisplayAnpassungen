@@ -12,7 +12,9 @@ Identifiers (names for classes, variables and methods), UI texts and Comments (J
 ----
 ## Screenshots
 
-![Screenshot 1](screenshot_1_mdpi.png)  ![Screenshot 2](screenshot_2_hdpi.png)
+![Screenshot 2](screenshot_2_hdpi.png)  ![Screenshot 1](screenshot_1_mdpi.png)  
+
+<br>
 
 ![Screenshot 3](screenshot_3_landscape.png)
 
