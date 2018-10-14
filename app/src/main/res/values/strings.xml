@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Display-Anpassungen</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="label_px" >px</string>
+    <string name="label_dp" >dp</string>
+
+    <string name="label_pyramide" >Pyramide</string>
+    <string name="label_nine_patch" >Nine-Patch-Grafik</string>
+
+    <string name="text_optional">
+        Dieser Text ist nicht so wichtig, dass er bei mdpi und kleiner auch noch auf den Bildschirm gequetscht werden muss.
+    </string>
+
+</resources>
