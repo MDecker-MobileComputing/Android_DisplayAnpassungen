@@ -27,8 +27,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-				
+
+
 		// *** DisplayMetrics-Objekt abfragen ***
 		WindowManager  windowManager = getWindowManager();
 		Display        display       = windowManager.getDefaultDisplay();
@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
 		stringBuffer.append("x_pixels=" + displayMetrics.widthPixels  + ", " );
 		stringBuffer.append("y_pixels=" + displayMetrics.heightPixels + "\n" );
 		
-		stringBuffer.append("x_dpi=" + displayMetrics.xdpi + ", "  ); 
+		stringBuffer.append("x_dpi=" + displayMetrics.xdpi + ", " );
 		stringBuffer.append("y_dpi=" + displayMetrics.ydpi + "\n" );
 	
 		stringBuffer.append("Density: ");
@@ -51,8 +51,7 @@ public class MainActivity extends Activity {
 			case DisplayMetrics.DENSITY_LOW:    // 120 dpi
 				stringBuffer.append("LOW");
 			break;		
-			case DisplayMetrics.DENSITY_MEDIUM: // 160 dpi
-			// = DisplayMetrics.DENSITY_DEFAULT
+			case DisplayMetrics.DENSITY_MEDIUM: // 160 dpi = DisplayMetrics.DENSITY_DEFAULT
 				stringBuffer.append("MEDIUM");
 			break;
 			case DisplayMetrics.DENSITY_TV:     // 213 dpi
@@ -75,10 +74,9 @@ public class MainActivity extends Activity {
 		
 		stringBuffer.append("Logical Density: " + displayMetrics.density + "\n");
 		// This is a scaling factor for the Density Independent Pixel unit, 
-		// where one DIP is one pixel on an approximately 160 dpi screen
-		
-		// *** String in TextView ausgeben ***
-		TextView textView = (TextView) findViewById(R.id.textview_mit_metriken);
+		// where one DIP is one pixel on an approximately 160 dpi screen.
+
+		TextView textView = findViewById(R.id.textview_mit_metriken);
 		textView.setText(stringBuffer);
 	}
 

@@ -48,6 +48,15 @@
         android:layout_below="@id/textview_mit_metriken"
         android:background="#00BFFF"
         android:src="@drawable/nuernberg" 
-        android:contentDescription="@string/label_pyramide"  />
+        android:contentDescription="@string/label_bild"  />
+
+    <TextView
+        android:layout_below="@id/imageview_nuernberg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:background="#DFDFDF"
+        android:padding="5dp"
+        android:text="@string/text_optional" />
                                         
 </RelativeLayout>
