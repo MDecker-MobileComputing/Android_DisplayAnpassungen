@@ -48,7 +48,9 @@ public class MainActivity extends Activity {
 		stringBuffer.append("y_dpi=" + displayMetrics.ydpi + "\n" );
 	
 		stringBuffer.append("Density: ");
+
 		switch (displayMetrics.densityDpi) {
+
 			case DisplayMetrics.DENSITY_LOW:    // 120 dpi
 				stringBuffer.append("LOW");
 			break;		
