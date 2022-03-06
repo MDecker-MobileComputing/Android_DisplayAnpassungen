@@ -1,4 +1,4 @@
-# Android-App "Display-Anpassungen"
+# Android-App "Display-Anpassungen" #
 
 App shows possibilities how to adapt to current display (resolution, orientation)
 at runtime.
@@ -10,7 +10,8 @@ Identifiers (names for classes, variables and methods), UI texts and Comments (J
 <br>
 
 ----
-## Screenshots
+
+## Screenshots ##
 
 ![Screenshot 2](screenshot_2_hdpi.png)  ![Screenshot 1](screenshot_1_mdpi.png)  
 
@@ -21,6 +22,9 @@ Identifiers (names for classes, variables and methods), UI texts and Comments (J
 <br>
 
 ----
-# License
+
+## License ##
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License).
+
+<br>
