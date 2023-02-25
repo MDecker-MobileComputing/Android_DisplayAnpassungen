@@ -51,22 +51,22 @@ public class MainActivity extends Activity {
 
             case DisplayMetrics.DENSITY_LOW:    // 120 dpi
                 stringBuffer.append("LOW");
-            break;
+                break;
             case DisplayMetrics.DENSITY_MEDIUM: // 160 dpi = DisplayMetrics.DENSITY_DEFAULT
                 stringBuffer.append("MEDIUM");
-            break;
+                break;
             case DisplayMetrics.DENSITY_TV:     // 213 dpi
                 stringBuffer.append("TV");
-            break;
+                break;
             case DisplayMetrics.DENSITY_HIGH:   // 240 dpi
                 stringBuffer.append("HIGH");
-            break;
+                break;
             case DisplayMetrics.DENSITY_XHIGH:  // 320 dpi
                 stringBuffer.append("XHIGH");
-            break;
+                break;
             case DisplayMetrics.DENSITY_XXHIGH: // 480 dpi
                 stringBuffer.append("XXHIGH");
-            break;
+                break;
             default:
                 stringBuffer.append("Unexpected value");
         }
