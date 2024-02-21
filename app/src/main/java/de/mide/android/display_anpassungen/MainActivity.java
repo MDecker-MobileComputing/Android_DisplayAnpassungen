@@ -1,4 +1,4 @@
-package de.mide.display_anpassungen;
+package de.mide.android.display_anpassungen;
 
 import android.app.Activity;
 import android.os.Bundle;

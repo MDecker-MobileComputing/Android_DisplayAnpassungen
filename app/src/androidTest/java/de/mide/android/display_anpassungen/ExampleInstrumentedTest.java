@@ -1,4 +1,4 @@
-package de.mide.display_anpassungen;
+package de.mide.android.display_anpassungen;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.mide.display_anpassungen", appContext.getPackageName());
+        assertEquals("de.mide.android.display_anpassungen", appContext.getPackageName());
     }
 }
