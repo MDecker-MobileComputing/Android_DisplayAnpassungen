@@ -8,7 +8,8 @@
     <string name="label_bild">Nürnberg</string>
 
     <string name="text_optional">
-        Dieser Text ist nicht so wichtig, dass er bei mdpi und kleiner auch noch auf den Bildschirm gequetscht werden muss.
+        Dieser Text ist nicht so wichtig, dass er bei mdpi und kleiner auch noch auf den Bildschirm
+        gequetscht werden muss.
     </string>
 
 </resources>
